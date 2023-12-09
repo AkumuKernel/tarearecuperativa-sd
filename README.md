@@ -6,20 +6,20 @@ Este repositorio contiene los programas hechos por "PeerSim: A Peer-to-Peer Simu
 
 Para esto debe tener instalado Apache Ant y JDK8. Los puede instalar de las siguientes maneras en distribuciones de linux.
 
-### Ubuntu y Derivados (como Debian):
+### Distribuciones basadas en Debian:
 
 ```sh
 sudo apt update
 sudo apt install openjdk-8-jdk ant
 ```
 
-### Red Hat y Derivados (como CentOS):
+### Distribuciones basadas en RedHat:
 
 ```sh
 sudo yum install java-1.8.0-openjdk ant
 ```
 
-### Arch y Derivados (como Manjaro):
+### Distribuciones basadas en Arch:
 
 ```sh
 sudo pacman -Syu jdk8-openjdk ant
