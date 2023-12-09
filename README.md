@@ -2,6 +2,38 @@
 
 Este repositorio contiene los programas hechos por "PeerSim: A Peer-to-Peer Simulator", el cual consiste en las carpetas de peersim-1.0.5 y pastry, lo único que se hizo fue modificar los archivos necesarios para el correcto funcionamiento de este. [Peersim Original](https://peersim.sourceforge.net/) y [Pastry Original](https://peersim.sourceforge.net/code/pastry.tar.gz)
 
+## Requisitos Previos
+
+Para esto debe tener instalado Apache Ant y JDK8. Los puede instalar de las siguientes maneras en distribuciones de linux.
+
+### Ubuntu y Derivados (como Debian):
+
+```sh
+sudo apt update
+sudo apt install openjdk-8-jdk ant
+```
+
+### Red Hat y Derivados (como CentOS):
+
+```sh
+sudo yum install java-1.8.0-openjdk ant
+```
+
+### Arch y Derivados (como Manjaro):
+
+```sh
+sudo pacman -Syu jdk8-openjdk ant
+```
+
+### Verificación
+
+Después de la instalación, puedes verificar que JDK y Ant se hayan instalado correctamente utilizando los siguientes comandos:
+```sh
+java -version
+ant -version
+```
+
+
 ## Obtención
 Para poder tener los contenedores hechos para esta actividad se tiene que hacer el siguiente comando:
 ```sh
